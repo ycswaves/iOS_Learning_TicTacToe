@@ -9,7 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    let gc = GameController()
+    @IBAction func placeSymbol(sender: AnyObject) {
+        var image = gc.placeSymbol()
+        sender.setImage(image, forState: .Normal)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
