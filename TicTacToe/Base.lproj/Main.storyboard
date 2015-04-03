@@ -23,7 +23,7 @@
                                     <constraint firstAttribute="width" constant="367" id="J4Q-nX-uYa"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCc-j4-DuI">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCc-j4-DuI">
                                 <rect key="frame" x="264" y="122" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="WCk-Xx-wIS"/>
@@ -36,7 +36,7 @@
                                     <action selector="placeSymbol:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qoe-A1-QHZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxk-aU-ftt">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxk-aU-ftt">
                                 <rect key="frame" x="22" y="242" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="MnP-aW-aZp"/>
@@ -62,7 +62,7 @@
                                     <action selector="placeSymbol:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="a61-pW-K7x"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngs-Nc-5Qq">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngs-Nc-5Qq">
                                 <rect key="frame" x="142" y="122" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="aNq-Vd-K9a"/>
@@ -75,7 +75,7 @@
                                     <action selector="placeSymbol:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tX4-GN-gad"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1X8-Dm-Ojx">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1X8-Dm-Ojx">
                                 <rect key="frame" x="142" y="242" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="WjY-v5-CKb"/>
@@ -88,7 +88,7 @@
                                     <action selector="placeSymbol:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PZp-Lf-Edc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3Y-nO-U5p">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3Y-nO-U5p">
                                 <rect key="frame" x="264" y="242" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Emx-p0-bUh"/>
@@ -101,7 +101,7 @@
                                     <action selector="placeSymbol:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EtD-Mp-h8a"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDF-PA-eH0">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDF-PA-eH0">
                                 <rect key="frame" x="264" y="364" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Jda-1L-hxL"/>
@@ -114,7 +114,7 @@
                                     <action selector="placeSymbol:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dsl-mG-Wco"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKu-xa-bYT">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKu-xa-bYT">
                                 <rect key="frame" x="22" y="364" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="L33-L3-KrP"/>
@@ -127,7 +127,7 @@
                                     <action selector="placeSymbol:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OxA-Jd-LvX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daX-1W-eWL">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daX-1W-eWL">
                                 <rect key="frame" x="142" y="364" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="1Hx-Ui-vwy"/>
@@ -140,12 +140,36 @@
                                     <action selector="placeSymbol:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QNf-Cx-GQA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7y-jE-laM">
+                                <rect key="frame" x="50" y="490" width="275" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="Am6-1P-QeO"/>
+                                    <constraint firstAttribute="width" constant="275" id="WGX-mb-iN3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyy-NI-aPP">
+                                <rect key="frame" x="142" y="590" width="90" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="55x-DV-p3G"/>
+                                    <constraint firstAttribute="height" constant="40" id="IuR-IA-hnb"/>
+                                </constraints>
+                                <state key="normal" title="Play Again">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAgainBtn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PH8-nJ-FFU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="s87-ku-rpT" firstAttribute="top" secondItem="uDF-PA-eH0" secondAttribute="top" constant="-261" id="1Cy-bY-Fob"/>
                             <constraint firstItem="gxk-aU-ftt" firstAttribute="leading" secondItem="s87-ku-rpT" secondAttribute="leading" constant="18" id="3Ts-TT-9ZB"/>
                             <constraint firstItem="BKu-xa-bYT" firstAttribute="leading" secondItem="s87-ku-rpT" secondAttribute="leading" constant="18" id="501-pr-sbI"/>
+                            <constraint firstItem="T7y-jE-laM" firstAttribute="top" secondItem="s87-ku-rpT" secondAttribute="bottom" constant="25" id="5AL-Ka-UL9"/>
                             <constraint firstItem="s87-ku-rpT" firstAttribute="leading" secondItem="v3Y-nO-U5p" secondAttribute="leading" constant="-260" id="5Lg-lj-Ug3"/>
                             <constraint firstItem="BKu-xa-bYT" firstAttribute="top" secondItem="s87-ku-rpT" secondAttribute="top" constant="261" id="D7t-AE-dtO"/>
                             <constraint firstItem="s87-ku-rpT" firstAttribute="leading" secondItem="uDF-PA-eH0" secondAttribute="leading" constant="-260" id="IDm-Sf-xaE"/>
@@ -166,6 +190,10 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="playAgainBtn" destination="tyy-NI-aPP" id="WZ4-N8-6RT"/>
+                        <outlet property="resultLabel" destination="T7y-jE-laM" id="YYX-EW-bWl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
